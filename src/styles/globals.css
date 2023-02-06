@@ -4,9 +4,9 @@
 
 /*Nav Items Style*/
 .nav_items {
-    @apply text-[#8BA889] text-sm font-normal
+    @apply text-[#8BA889] text-base font-normal py-3 px-8 hover:text-[#49654E]  rounded-lg
 }
 
 .nav_items_active {
-    @apply text-[#49654E] text-base font-semibold
+    @apply text-[#49654E] text-base font-semibold py-3 px-8
 }
