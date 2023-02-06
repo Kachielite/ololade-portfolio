@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/*Nav Items Style*/
+.nav_items {
+    @apply text-[#8BA889] text-sm font-normal
+}
 
+.nav_items_active {
+    @apply text-[#49654E] text-base font-semibold
+}
