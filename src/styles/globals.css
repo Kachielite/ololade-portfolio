@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    width: 100vw;
+}
+
 /*Nav Items Style*/
 .nav_items {
     @apply text-[#8BA889] text-base font-normal py-3 px-8 hover:text-[#49654E]  rounded-lg

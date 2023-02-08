@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export const Footer = () => {
 	return (
-		<footer className='bg-[#253528] pt-20 pb-12 px-5 lg:px-[7.5rem] max-w-screen-2xl mx-auto w-full'>
-			<div className='w-full flex flex-col items-center justify-center text-white'>
+		<footer className='bg-[#253528] pt-20 pb-12 px-5 lg:px-[7.5rem] w-full'>
+			<div className='w-full flex flex-col items-center justify-center text-white max-w-screen-xl mx-auto '>
 				<h2 className='text-[3rem] font-normal'>Get <span className='font-semibold mb-2'>In Touch.</span></h2>
 				<p className='max-w-md text-center text-base text-[#ECEDE8]'>Do you have a product idea, want to discuss a project, or need a
 					designer?</p>

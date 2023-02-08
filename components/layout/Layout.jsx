@@ -4,7 +4,7 @@ import { Footer } from './Footer';
 
 export const Layout = ({children}) => {
 	return (
-		<main className="flex flex-col justify-between items-center w-screen min-h-screen">
+		<main className="flex flex-col justify-start items-center w-screen min-h-screen">
 				<Header/>
 				{children}
 				<Footer/>

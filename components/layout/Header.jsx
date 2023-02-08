@@ -14,7 +14,7 @@ export const Header = () => {
 	};
 
 	return (
-		<nav className='relative flex flex-row justify-between items-center w-full py-6 px-4 lg:px-[4.5rem] max-w-screen-2xl mx-auto'>
+		<nav className='relative flex flex-row justify-between items-center w-full py-6 px-4 lg:px-0 max-w-screen-xl mx-auto'>
 			<Link href='/'>
 				<div className='flex justify-center items-center space-x-4'>
 					<svg width='56' height='28' viewBox='0 0 56 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
