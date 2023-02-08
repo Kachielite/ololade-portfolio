@@ -5,7 +5,7 @@ const MobileNavbar = ({setIsOpen }) => {
 	const router = useRouter();
 
 	return (
-		<div className="absolute z-10 left-0 top-20 bg-[#F9F8F4] flex md:hidden flex-col items-start justify-start w-full space-y-12 py-6 px-8 text-md font-bold shadow-xl bg-white duration-200">
+		<div className="absolute z-10 left-0 top-20 bg-[#F9F8F4] flex lg:hidden flex-col items-start justify-start w-full space-y-12 py-6 px-8 text-md font-bold shadow-xl bg-white duration-200">
 			<Link href="/" className="nav_items">
 				Home
 			</Link>
