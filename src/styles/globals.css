@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +11,12 @@
 
 .nav_items_active {
     @apply text-[#49654E] text-base font-semibold py-3 px-8
+}
+
+.brand-color {
+    background: linear-gradient(90deg, #B1812E 0%, #49654E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
