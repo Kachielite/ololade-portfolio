@@ -190,13 +190,13 @@ const Home = () => {
 							return (
 								<div
 									key={item.id}
-									className='relative pt-6 md:pt-12 px-5 md:px-14 w-full h-80 md:h-[59.8rem] overflow-y-hidden  flex flex-col justify-start items-start bg-[#1B261D] rounded-[3.1rem] shadow shadow-[0_4px_22px_rgba(0, 0, 0, 0.25)]'>
+									className='relative pt-6 md:pt-12 px-5 md:px-14 w-full h-[27.2rem] md:h-[59.8rem] overflow-y-hidden  flex flex-col justify-start items-start bg-[#1B261D] rounded-[3.1rem] shadow shadow-[0_4px_22px_rgba(0, 0, 0, 0.25)]'>
 									<Image src={item.image} alt='mtn engauge' />
-									<div className='w-full flex flex-col md:flex-row justify-between items-center mt-8'>
-										<h3 className='font-bold text-white text-[2rem]'>{item.title}</h3>
+									<div className='w-full flex flex-row justify-between items-center mt-8'>
+										<h3 className='font-bold text-white text-base md:text-[2rem]'>{item.title}</h3>
 										<Link href='/'>
 											<div className='flex flex-row items-center space-x-4'>
-												<p className='font-bold text-white text-lg md:text-xl'>View more</p>
+												<p className='font-bold text-white text-sm md:text-xl'>View more</p>
 												<svg width='18' height='16' viewBox='0 0 18 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
 													<path d='M1 8H17M17 8L10 1M17 8L10 15' stroke='white' stroke-width='2' stroke-linecap='round'
 																stroke-linejoin='round' />
@@ -204,11 +204,11 @@ const Home = () => {
 											</div>
 										</Link>
 									</div>
-									<p className='hidden md:block font-normal h-[13.2rem] text-white text-[2rem]  mt-10'>
+									<p className='font-normal h-[13.2rem] text-white text-base md:text-[2rem] leading-5 md:leading-10 mt-10'>
 										{item.text}
 									</p>
 									<div
-										className='hidden md:block  w-full h-[15.2rem] absolute bottom-0 left-0 z-20 bg-gradient-to-t from-[#1B261D] to-[#1B261D]/[.35] overflow-y-hidden ' />
+										className='w-full h-[10rem] md:h-[16.5rem] absolute bottom-0 left-0 z-20 bg-gradient-to-t from-[#1B261D] to-[#1B261D]/[.35] overflow-y-hidden ' />
 
 								</div>
 							);
