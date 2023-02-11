@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Ololade from '../../public/images/ololade.png';
+import MtnEngauge from '../../public/images/mtnEngauge.png';
+import UnionBannk from '../../public/images/unionBank.png';
+import UTask from '../../public/images/utask.png';
+import BettingPlatform from '../../public/images/betting-platform.png';
+import Link from 'next/link';
 
 
 const Home = () => {
-	let design_process = [
+	const design_process = [
 		{
 			id: 0,
 			show: false,
@@ -35,6 +40,33 @@ const Home = () => {
 		},
 
 	];
+
+	const works = [
+		{
+			id: 1,
+			image: MtnEngauge,
+			title: 'Mtn EnGauge',
+			text: 'A customer management platform that enables businesses find new customers and engage with them. On Mtn EnGauge, businesses can share promos/offers, survey their customers and get feedback from them, using their mobile phones. The MTN EnGauge mobile app is available on both the Google Play store and the Apple store.',
+		},
+		{
+			id: 2,
+			image: UnionBannk,
+			title: 'Union Bank',
+			text: 'The Union Bank mobile banking app design is a personal project aimed at improving the user experience for young adults. I followed a user-centered design approach, conducted extensive research, generated multiple design concepts and prototypes, conducted user testing, and created a final design based on the feedback. The design solution aimed to simplify the mobile banking experience, allow users to customize the app to their preferences, be visually appealing and modern, and meet the needs and preferences of the target audience.',
+		},
+		{
+			id: 3,
+			image: UTask,
+			title: 'U-Task',
+			text: 'A mobile app that connects service providers with customers in need of their services. The app has two distinct sides: one for service providers and one for consumers. The app also includes a landing page that provides information about the app and allows service providers to sign up',
+		},
+		{
+			id: 4,
+			image: BettingPlatform,
+			title: 'Betting Platform',
+			text: 'This is a platform that allows users to place bets on various sports events using cryptocurrency as a form of payment. The platform includes a web app designed to provide an intuitive and user-friendly experience for users. The goal of the UI/UX design project was to improve the user experience and increase user engagement and conversion rates on the mobile app. The design solution simplified navigation, improved visual hierarchy, and increased visual appeal, resulting in a successful improvement in user engagement and conversion rates, as well as positive feedback from users on the improved user experience.',
+		},
+	];
 	const [selectedProcess, setSelectedProcess] = useState(design_process);
 
 	const designProcessCardHandler = (id) => {
@@ -47,7 +79,7 @@ const Home = () => {
 	return (
 		<main className='w-full flex flex-col justify-start items-start font-sora'>
 			<section id='hero' className='w-full max-w-screen-xl mx-auto'>
-				<div className='w-full flex flex-col justify-start items-start px-4 lg:px-0 pt-[4.5rem] pb-16'>
+				<div className='w-full flex flex-col justify-start items-start px-4 lg:px-[7.5rem] pt-[4.5rem] pb-16'>
 					<h2 className='mb-6 brand-color font-bold text-[5rem]'>Hi there!</h2>
 					<h1 className='mb-9 text-[#49654E] font-bold text-[4rem]'>I am Ololade Adesuyi,</h1>
 					<p className='mb-10 font-normal text-4xl text-[#253528] leading-[3rem] lg:w-[69rem]'>A UI/UX Designer with a
@@ -75,7 +107,7 @@ const Home = () => {
 			</section>
 			<section className='w-full bg-[#253528]' id='about'>
 				<div
-					className='w-full flex flex-col lg:flex-row justify-between items-start px-4 lg:px-0 py-24 max-w-screen-xl mx-auto'>
+					className='w-full flex flex-col lg:flex-row justify-between items-start px-4 lg:px-[6.7rem] py-24 max-w-screen-xl mx-auto'>
 					<div className='flex flex-col justify-start items-start lg:w-[45.8rem]'>
 						<p className='font-normal text-base text-white mb-2'>A bit</p>
 						<h2 className='font-bold text-white text-[2.5rem] mb-6'>About Me</h2>
@@ -116,15 +148,17 @@ const Home = () => {
 				</div>
 			</section>
 			<section id='process' className='w-full max-w-screen-xl mx-auto'>
-				<div className='w-full flex flex-col justify-start items-start px-4 lg:px-0 py-12'>
+				<div className='w-full flex flex-col justify-start items-start px-4 lg:px-[7.5rem] py-12'>
 					<p className='font-normal text-[#253528] text-base  mb-2'>Here's my deal</p>
 					<h2 className='font-bold text-[#253528] text-[2.5rem] mb-6'>Design Process</h2>
 					<p className='font-normal text-[#253528]  text-base  mb-2 max-w-[40rem]'>How I make your business reach your
 						goals by aligning them to "real" user needs.</p>
 					<div className='w-full flex flex-col justify-center items-center space-y-4 mt-10'>
 						{selectedProcess.map(item =>
-							<button className='py-7 px-4 md:px-10 bg-[#ECEDE8] w-full rounded-xl flex flex-col space-y-[1.3rem] text-left' key={item.id}
-											onClick={() => designProcessCardHandler(item.id)}>
+							<button
+								className='py-7 px-4 md:px-10 bg-[#ECEDE8] w-full rounded-xl flex flex-col space-y-[1.3rem] text-left'
+								key={item.id}
+								onClick={() => designProcessCardHandler(item.id)}>
 								<div className='w-full flex flex-row justify-between items-center'>
 									<h3 className='text-[#253528] font-bold text-xl'>{item.title}</h3>
 									{!item.show ?
@@ -141,8 +175,44 @@ const Home = () => {
 								</div>
 								{item.show && <p className='text-xl font-normal text-[#253528]'><span
 									className='font-semibold'>{item.subtitle}</span> {item.details}</p>}
-							</button>
+							</button>,
 						)}
+					</div>
+				</div>
+			</section>
+			<section id='work' className='w-full bg-[#253528]'>
+				<div
+					className='w-full flex flex-col justify-between items-start px-4 lg:px-[7.5rem] py-12 max-w-screen-xl mx-auto'>
+					<p className='font-normal text-white text-base  mb-2'>Selected</p>
+					<h2 className='font-bold text-white text-[2.5rem] mb-6'>Works</h2>
+					<div className='w-full mt-10 flex flex-col justify-start items-center space-y-20'>
+						{works.map(item => {
+							return (
+								<div
+									key={item.id}
+									className='relative pt-6 md:pt-12 px-5 md:px-14 w-full h-80 md:h-[59.8rem] overflow-y-hidden  flex flex-col justify-start items-start bg-[#1B261D] rounded-[3.1rem] shadow shadow-[0_4px_22px_rgba(0, 0, 0, 0.25)]'>
+									<Image src={item.image} alt='mtn engauge' />
+									<div className='w-full flex flex-col md:flex-row justify-between items-center mt-8'>
+										<h3 className='font-bold text-white text-[2rem]'>{item.title}</h3>
+										<Link href='/'>
+											<div className='flex flex-row items-center space-x-4'>
+												<p className='font-bold text-white text-lg md:text-xl'>View more</p>
+												<svg width='18' height='16' viewBox='0 0 18 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+													<path d='M1 8H17M17 8L10 1M17 8L10 15' stroke='white' stroke-width='2' stroke-linecap='round'
+																stroke-linejoin='round' />
+												</svg>
+											</div>
+										</Link>
+									</div>
+									<p className='hidden md:block font-normal h-[13.2rem] text-white text-[2rem]  mt-10'>
+										{item.text}
+									</p>
+									<div
+										className='hidden md:block  w-full h-[15.2rem] absolute bottom-0 left-0 z-20 bg-gradient-to-t from-[#1B261D] to-[#1B261D]/[.35] overflow-y-hidden ' />
+
+								</div>
+							);
+						})}
 					</div>
 				</div>
 			</section>
