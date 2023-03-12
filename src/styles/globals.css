@@ -5,41 +5,58 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Satoshi";
-    src: url("../../public/fonts/Satoshi-Regular.otf");
+	font-family: 'Satoshi';
+	src: url('../../public/fonts/Satoshi-Regular.otf');
 }
 
 @font-face {
-    font-family: "Satoshi-Medium";
-    src: url("../../public/fonts/Satoshi-Medium.otf");
+	font-family: 'Satoshi-Medium';
+	src: url('../../public/fonts/Satoshi-Medium.otf');
 }
 
+@font-face {
+	font-family: 'Graphik-bold';
+	src: url('../../public/fonts/GraphikBold.otf');
+}
+
+@font-face {
+	font-family: 'Graphik-medium';
+	src: url('../../public/fonts/GraphikMedium.otf');
+}
+
+@font-face {
+	font-family: 'Graphik-regular';
+	src: url('../../public/fonts/GraphikRegular.otf');
+}
+
+@font-face {
+	font-family: 'Graphik-light';
+	src: url('../../public/fonts/GraphikLight.otf');
+}
 
 @layer base {
-    html {
-        scroll-behavior: smooth;
-    }
-
+	html {
+		scroll-behavior: smooth;
+	}
 }
-
 
 /*Nav Items Style*/
 .nav_items {
-    @apply text-[#8BA889] text-base font-normal py-3 px-8 hover:text-[#49654E]  rounded-lg
+	@apply text-[#8BA889] text-base font-normal py-3 px-8 hover:text-[#49654E]  rounded-lg;
 }
 
 .nav_items_active {
-    @apply text-[#49654E] text-base font-semibold py-3 px-8
+	@apply text-[#49654E] text-base font-semibold py-3 px-8;
 }
 
 .brand-color {
-    background: linear-gradient(90deg, #B1812E 0%, #49654E 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+	background: linear-gradient(90deg, #b1812e 0%, #49654e 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
 }
 
 .works-text {
-    background: linear-gradient(180 deg, #F1FDF5 0%, #2B322C 74.53%);
+	background: linear-gradient(180 deg, #f1fdf5 0%, #2b322c 74.53%);
 }
