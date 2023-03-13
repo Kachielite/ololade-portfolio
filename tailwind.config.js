@@ -16,6 +16,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				sora: ['Sora', 'sans-serif'],
+				karla: ['Karla', 'sans-serif'],
 				satoshi: ['Satoshi', 'sans-serif'],
 			},
 		},
