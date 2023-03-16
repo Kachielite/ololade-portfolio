@@ -113,7 +113,7 @@ function Home() {
 								Get in touch
 							</a>
 							<a
-								href="#work"
+								href="#process"
 								className="flex flex-row justify-center items-center text-[#8BA889] font-normal text-xl mt-10 md:mt-0"
 							>
 								or find out more
