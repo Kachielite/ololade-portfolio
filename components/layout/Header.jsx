@@ -67,6 +67,7 @@ function Header() {
 				<Link
 					href="/"
 					className={`${pathname === '/' ? 'nav_items_active' : 'nav_items'}`}
+					scroll={false}
 				>
 					Home
 				</Link>
@@ -75,6 +76,7 @@ function Header() {
 					className={`${
 						pathname === '#about' ? 'nav_items_active' : 'nav_items'
 					}`}
+					scroll={false}
 				>
 					About
 				</Link>
@@ -83,6 +85,7 @@ function Header() {
 					className={`${
 						pathname === '#process' ? 'nav_items_active' : 'nav_items'
 					}`}
+					scroll={false}
 				>
 					Process
 				</Link>
@@ -91,15 +94,16 @@ function Header() {
 					className={`${
 						pathname === '#work' ? 'nav_items_active' : 'nav_items'
 					}`}
+					scroll={false}
 				>
 					Work
 				</Link>
-				<button
-					type="button"
+				<a
+					href="mailto:aololade862@gmail.com"
 					className="border-[0.09rem] border-[#E4E6D9] rounded-[6.25rem] py-3 px-6  text-[#8BA889] text-base font-semibold ml-3 hover:shadow-lg hover:bg-[#49654E] hover:text-[#ECEDE8]"
 				>
 					Get in touch
-				</button>
+				</a>
 			</div>
 			<div className="block lg:hidden">
 				{isOpen ? (

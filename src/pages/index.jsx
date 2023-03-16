@@ -88,7 +88,10 @@ function Home() {
 
 	return (
 		<Layout>
-			<main className="w-full flex flex-col justify-start items-start font-sora">
+			<main
+				className="w-full flex flex-col justify-start items-start font-sora"
+				style={{ scrollBehavior: 'smooth' }}
+			>
 				<section id="hero" className="w-full max-w-screen-xl mx-auto">
 					<div className="w-full flex flex-col justify-start items-start px-4 lg:px-[7.5rem] pt-[4.5rem] pb-16">
 						<h2 className="mb-6 brand-color font-bold text-[5rem]">
@@ -103,13 +106,16 @@ function Home() {
 							needs of my clients and their customers no matter the industry.
 						</p>
 						<div className="flex flex-col md:flex-row justify-center items-center space-x-6">
-							<button
-								type="button"
+							<a
+								href="mailto:aololade862@gmail.com"
 								className="bg-[#49654E] rounded-[6.25rem] py-[1.4rem] px-12  text-white text-xl font-normal hover:shadow-lg  hover:scale-110 duration-300"
 							>
 								Get in touch
-							</button>
-							<p className="flex flex-row justify-center items-center text-[#8BA889] font-normal text-xl mt-10 md:mt-0">
+							</a>
+							<a
+								href="#work"
+								className="flex flex-row justify-center items-center text-[#8BA889] font-normal text-xl mt-10 md:mt-0"
+							>
 								or find out more
 								<span className="ml-2.5">
 									<svg
@@ -135,7 +141,7 @@ function Home() {
 										/>
 									</svg>
 								</span>
-							</p>
+							</a>
 						</div>
 					</div>
 				</section>
@@ -212,9 +218,12 @@ function Home() {
 									design.
 								</p>
 							</div>
-							<button
-								type="button"
+							<a
+								href="https://drive.google.com/uc?id=1BezEaWH8XUPtg3eqf5yMBQ6zS5JYCBiB&export=download"
+								download="ololade_adesuyi_resume"
+								target="_blank"
 								className="flex flex-row  border-[0.09rem] border-[#C0CFB2]  rounded-[6.25rem] py-[1.4rem] px-12  text-[#ECEDE8] text-base font-normal  hover:shadow-lg  hover:scale-110 duration-300"
+								rel="noreferrer"
 							>
 								Read My Resume
 								<svg
@@ -240,7 +249,7 @@ function Home() {
 										strokeLinejoin="round"
 									/>
 								</svg>
-							</button>
+							</a>
 						</div>
 						<div className="w-full lg:w-[28.8rem] h-[41.1rem] mt-10 lg:mt-0">
 							<Image

@@ -29,7 +29,7 @@ import visualDesign from '../../../public/images/visual-design.png';
 import visualDesign2 from '../../../public/images/visual-design2.png';
 import visualDesignDesktop from '../../../public/images/visual-design-desktop-1.png';
 import visualDesignDesktop2 from '../../../public/images/visual-design-desktop-2.png';
-import utouch from '../../../public/images/utouch.png';
+import mtnEngaugeFooter from '../../../public/images/mtn-enguage-footer.png';
 
 function MtnEngauge() {
 	return (
@@ -3085,8 +3085,8 @@ function MtnEngauge() {
 				</div>
 				<div className="w-full flex justify-center items-center py-5 lg:py-[6.25rem]">
 					<Image
-						src={utouch}
-						alt="utouch"
+						src={mtnEngaugeFooter}
+						alt="mtn engauge footer"
 						className="lg:w-[63.13rem] lg:h-[18.18rem]"
 					/>
 				</div>

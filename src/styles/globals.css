@@ -45,6 +45,14 @@
 	html {
 		scroll-behavior: smooth;
 	}
+
+	main {
+		scroll-behavior: smooth;
+	}
+
+	section {
+		scroll-behavior: smooth;
+	}
 }
 
 /*Nav Items Style*/

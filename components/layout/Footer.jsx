@@ -12,12 +12,13 @@ function Footer() {
 					Do you have a product idea, want to discuss a project, or need a
 					designer?
 				</p>
-				<button
+				<a
+					href="mailto:aololade862@gmail.com"
 					type="button"
 					className="border-[0.09rem] border-[#E4E6D9] rounded-[6.25rem] py-3 px-6  text-base font-semibold my-10"
 				>
 					Drop me a message
-				</button>
+				</a>
 				<div className="flex flex-row items-center space-x-[3.2rem]">
 					<Link href="/">
 						<svg
