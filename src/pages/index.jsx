@@ -94,30 +94,31 @@ function Home() {
 			>
 				<section id="hero" className="w-full max-w-screen-xl mx-auto">
 					<div className="w-full flex flex-col justify-start items-start px-4 lg:px-[7.5rem] pt-[4.5rem] pb-16">
-						<h2 className="mb-6 brand-color font-bold text-[5rem]">
+						<h2 className="mb-6 brand-color font-bold text-[2.5rem] lg:text-[5rem]">
 							Hi there!
 						</h2>
-						<h1 className="mb-9 text-[#49654E] font-bold text-[4rem]">
+						<h1 className="mb-9 text-[#49654E] font-bold text-[1.9rem] lg:text-[4rem]">
 							I am Ololade Adesuyi,
 						</h1>
-						<p className="mb-10 font-normal text-4xl text-[#253528] leading-[3rem] lg:w-[69rem]">
-							A UI/UX Designer with a strategic and creative mindset, dedicated
-							to delivering high-quality, impactful solutions that meet the
-							needs of my clients and their customers no matter the industry.
+						<p className="mb-10 font-normal text-base sm:text-justify lg:text-4xl text-[#253528] leading-[3rem] lg:w-[69rem]">
+							A Product Designer with a strategic and creative mindset,
+							dedicated to delivering high-quality, impactful solutions that
+							meet the needs of my clients and their customers no matter the
+							industry.
 						</p>
-						<div className="flex flex-col md:flex-row justify-center items-center space-x-6">
+						<div className="flex flex-row justify-center items-center space-x-6">
 							<a
 								href="mailto:aololade862@gmail.com"
-								className="bg-[#49654E] rounded-[6.25rem] py-[1.4rem] px-12  text-white text-xl font-normal hover:shadow-lg  hover:scale-110 duration-300"
+								className="bg-[#49654E] rounded-[6.25rem] py-3 lg:py-[1.4rem] px-4 lg:px-12  text-white text-base lg:text-xl font-normal hover:shadow-lg  hover:scale-110 duration-300"
 							>
 								Get in touch
 							</a>
 							<a
 								href="#process"
-								className="flex flex-row justify-center items-center text-[#8BA889] font-normal text-xl mt-10 md:mt-0"
+								className="flex flex-row justify-center items-center text-[#8BA889] font-normal text-base lg:text-xl lg:mt-10 md:mt-0"
 							>
 								or find out more
-								<span className="ml-2.5">
+								<span className="lg:ml-2.5">
 									<svg
 										width="24"
 										height="25"
@@ -153,7 +154,7 @@ function Home() {
 								About Me
 							</h2>
 							<div className="flex flex-col justify-start items-start space-y-6 mb-6">
-								<p className="font-light text-2xl text-white leading-[2.5rem]">
+								<p className="font-light text-xl lg:text-2xl text-white leading-[2.5rem]">
 									As a designer, I aim to{' '}
 									<span className="font-bold">solve users' challenges</span> and{' '}
 									<span className="font-bold">
@@ -163,7 +164,7 @@ function Home() {
 									connect with people and I gather inspiration and innovative
 									ideas while at it.
 								</p>
-								<p className="font-light text-2xl text-white leading-[2.5rem]">
+								<p className="font-light text-xl lg:text-2xl text-white leading-[2.5rem]">
 									I have more than 2 years of experience & this experience and
 									knowledge has been trusted by{' '}
 									<a
@@ -198,7 +199,7 @@ function Home() {
 									</a>
 									, and more.
 								</p>
-								<p className="font-light text-2xl text-white leading-[2.5rem]">
+								<p className="font-light text-xl lg:text-2xl text-white leading-[2.5rem]">
 									And when I’m not designing? You’ll find me volunteering at{' '}
 									<a
 										href="https://www.instagram.com/oguntechies/"
@@ -222,7 +223,7 @@ function Home() {
 								href="https://drive.google.com/uc?id=1BezEaWH8XUPtg3eqf5yMBQ6zS5JYCBiB&export=download"
 								download="ololade_adesuyi_resume"
 								target="_blank"
-								className="flex flex-row  border-[0.09rem] border-[#C0CFB2]  rounded-[6.25rem] py-[1.4rem] px-12  text-[#ECEDE8] text-base font-normal  hover:shadow-lg  hover:scale-110 duration-300"
+								className="flex flex-row  border-[0.09rem] border-[#C0CFB2]  rounded-[6.25rem] py-3 lg:py-[1.4rem] px-4 lg:px-12  text-[#ECEDE8] text-base font-normal  hover:shadow-lg  hover:scale-110 duration-300"
 								rel="noreferrer"
 							>
 								Read My Resume
@@ -251,7 +252,7 @@ function Home() {
 								</svg>
 							</a>
 						</div>
-						<div className="w-full lg:w-[28.8rem] h-[41.1rem] mt-10 lg:mt-0">
+						<div className="w-full lg:w-[28.8rem] h-[41.1rem] mt-5 lg:mt-10 lg:mt-0">
 							<Image
 								src={Ololade}
 								alt="Ololade's pic"
