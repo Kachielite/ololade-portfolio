@@ -8,37 +8,43 @@
 
 @font-face {
 	font-family: 'Satoshi';
-	src: url('../../public/fonts/Satoshi-Regular.otf');
+	src: url('/fonts/Satoshi-Regular.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'Satoshi-Medium';
-	src: url('../../public/fonts/Satoshi-Medium.otf');
+	src: url('/fonts/Satoshi-Medium.otf') format('opentype');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Satoshi-Black';
-	src: url('../../public/fonts/Satoshi-Black.otf');
+	src: url('/fonts/Satoshi-Black.otf') format('opentype');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Graphik-bold';
-	src: url('../../public/fonts/GraphikBold.otf');
+	src: url('/fonts/GraphikBold.otf') format('opentype');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Graphik-medium';
-	src: url('../../public/fonts/GraphikMedium.otf');
+	src: url('/fonts/GraphikMedium.otf') format('opentype');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Graphik-regular';
-	src: url('../../public/fonts/GraphikRegular.otf');
+	src: url('/fonts/GraphikRegular.otf') format('opentype');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Graphik-light';
-	src: url('../../public/fonts/GraphikLight.otf');
+	src: url('/fonts/GraphikLight.otf') format('opentype');
+	font-display: swap;
 }
 
 @layer base {
