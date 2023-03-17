@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Footer from '../../../components/layout/Footer';
 import unionBankBrand from '../../../public/images/unionBank/unionbankBrand.png';
 import miroIcon from '../../../public/icons/Miro.png';
@@ -11,7 +12,7 @@ import visualDesign from '../../../public/images/unionBank/visual-design.png';
 import visualDesign2 from '../../../public/images/unionBank/visual-design2.png';
 import visualDesignDesktop from '../../../public/images/unionBank/visual-design-desktop.png';
 import visualDesignDesktop2 from '../../../public/images/unionBank/visual-design-desktop2.png';
-import unionBankFooter from '../../../public/images/unionBank/union-bank-footer.png';
+import bettingPlatformFooter from '../../../public/images/bettingPlatform/betting-footer.png';
 
 function UnionBank() {
 	return (
@@ -803,13 +804,16 @@ function UnionBank() {
 						</p>
 					</div>
 				</div>
-				<div className="w-full flex justify-center items-center py-5 lg:py-[6.25rem]">
+				<Link
+					href="/work/betting-platform"
+					className="w-full flex justify-center items-center py-5 lg:py-[6.25rem]"
+				>
 					<Image
-						src={unionBankFooter}
-						alt="unionBankFooter"
+						src={bettingPlatformFooter}
+						alt="Link to betting platform case study"
 						className="lg:w-[63.13rem] lg:h-[18.18rem]"
 					/>
-				</div>
+				</Link>
 			</section>
 			<Footer />
 		</main>

@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Footer from '../../../components/layout/Footer';
-import bettingPlatformFooter from '../../../public/images/bettingPlatform/betting-footer.png';
+import mtnEngaugeFooter from '../../../public/images/mtn-enguage-footer.png';
 import preview from '../../../public/images/bettingPlatform/bettingImage.png';
 
 function BettingPlatform() {
@@ -18,13 +19,16 @@ function BettingPlatform() {
 				/>
 			</section>
 
-			<section className="w-full max-w-screen-xl mx-auto py-12 lg:pt-36 px-4 flex justify-center items-center">
+			<Link
+				href="/work/mtn-engauge"
+				className="w-full max-w-screen-xl mx-auto py-12 lg:pt-36 px-4 flex justify-center items-center"
+			>
 				<Image
-					src={bettingPlatformFooter}
-					alt="bettingPlatformFooter"
+					src={mtnEngaugeFooter}
+					alt="Link to Mtn Engauge"
 					className="lg:w-[63.13rem] lg:h-[18.18rem]"
 				/>
-			</section>
+			</Link>
 			<Footer />
 		</main>
 	);

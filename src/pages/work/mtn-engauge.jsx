@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Footer from '../../../components/layout/Footer';
 import MTNEnguageBrand from '../../../public/images/mtnEngaugeBrand.png';
 import exelIcon from '../../../public/icons/excel.png';
@@ -29,7 +30,7 @@ import visualDesign from '../../../public/images/visual-design.png';
 import visualDesign2 from '../../../public/images/visual-design2.png';
 import visualDesignDesktop from '../../../public/images/visual-design-desktop-1.png';
 import visualDesignDesktop2 from '../../../public/images/visual-design-desktop-2.png';
-import mtnEngaugeFooter from '../../../public/images/mtn-enguage-footer.png';
+import utask from '../../../public/images/utouch.png';
 
 function MtnEngauge() {
 	return (
@@ -3083,13 +3084,16 @@ function MtnEngauge() {
 						</p>
 					</div>
 				</div>
-				<div className="w-full flex justify-center items-center py-5 lg:py-[6.25rem]">
+				<Link
+					href="/work/u-task"
+					className="w-full flex justify-center items-center py-5 lg:py-[6.25rem]"
+				>
 					<Image
-						src={mtnEngaugeFooter}
-						alt="mtn engauge footer"
+						src={utask}
+						alt="Linkt to Utask case study"
 						className="lg:w-[63.13rem] lg:h-[18.18rem]"
 					/>
-				</div>
+				</Link>
 			</section>
 			<Footer />
 		</main>

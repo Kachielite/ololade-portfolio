@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Footer from '../../../components/layout/Footer';
 import utaskBrand from '../../../public/images/utask/Utaskbrand.png';
 import miroIcon from '../../../public/icons/Miro.png';
@@ -23,7 +24,6 @@ import visualDesign3 from '../../../public/images/utask/visual-design3.png';
 import visualDesignDesktop from '../../../public/images/utask/visual-design-desktop-1.png';
 import visualDesignDesktop2 from '../../../public/images/utask/visual-design-desktop-2.png';
 import visualDesignDesktop3 from '../../../public/images/utask/visual-design-desktop-3.png';
-import utouch from '../../../public/images/utouch.png';
 import empathyMap from '../../../public/images/utask/empathyMap.png';
 import empathyMapDesktop from '../../../public/images/utask/empathyMapDesktop.png';
 import empathyMap2 from '../../../public/images/utask/empathyMap2.png';
@@ -32,6 +32,7 @@ import informationArchitecture from '../../../public/images/utask/informationArc
 import informationArchitectureDesktop from '../../../public/images/utask/informationArchitectureDesktop.png';
 import informationArchitecture2 from '../../../public/images/utask/informationArchitecture2.png';
 import informationArchitectureDesktop2 from '../../../public/images/utask/informationArchitectureDesktop2.png';
+import unionBankFooter from '../../../public/images/unionBank/union-bank-footer.png';
 
 function UTask() {
 	return (
@@ -2910,13 +2911,16 @@ function UTask() {
 						</p>
 					</div>
 				</div>
-				<div className="w-full flex justify-center items-center py-5 lg:py-[6.25rem]">
+				<Link
+					href="/work/union-bank"
+					className="w-full flex justify-center items-center py-5 lg:py-[6.25rem]"
+				>
 					<Image
-						src={utouch}
-						alt="utouch"
+						src={unionBankFooter}
+						alt="Link to union bank case study"
 						className="lg:w-[63.13rem] lg:h-[18.18rem]"
 					/>
-				</div>
+				</Link>
 			</section>
 			<Footer />
 		</main>
