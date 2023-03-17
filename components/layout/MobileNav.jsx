@@ -17,7 +17,7 @@ function MobileNavbar() {
 				Works
 			</Link>
 			<a
-				href="mailto:aololade862@gmail.com"
+				href="mailto:aololade862@gmail.com?subject=Let's work together!"
 				className="border-[0.09rem] border-[#E4E6D9] w-full rounded-[6.25rem] py-3 px-6  text-[#8BA889] text-base text-center font-semibold"
 			>
 				Get in touch

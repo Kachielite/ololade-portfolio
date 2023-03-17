@@ -109,7 +109,7 @@ function UnionBank() {
 							</div>
 							<div className="flex flex-col w-full justify-center items-center lg:items-start space-y-4 md:pl-20 mt-[3.2rem] px-[4rem]">
 								<h1 className="text-[#03B1F0] text-[2rem] md:text-[4.4rem] font-['Satoshi-Black']">
-									U-Task
+									Union Bank
 								</h1>
 								<p className="text-base md:text-[2rem] font-light text-white">
 									Streamlined banking experience

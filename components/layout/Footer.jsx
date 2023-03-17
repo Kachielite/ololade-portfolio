@@ -13,14 +13,14 @@ function Footer() {
 					designer?
 				</p>
 				<a
-					href="mailto:aololade862@gmail.com"
+					href="mailto:aololade862@gmail.com?subject=Let's work together!"
 					type="button"
 					className="border-[0.09rem] border-[#E4E6D9] rounded-[6.25rem] py-3 px-6  text-base font-semibold my-10"
 				>
 					Drop me a message
 				</a>
 				<div className="flex flex-row items-center space-x-[3.2rem]">
-					<Link href="/">
+					<Link href="https://drive.google.com/uc?id=1BezEaWH8XUPtg3eqf5yMBQ6zS5JYCBiB&export=download">
 						<svg
 							width="22"
 							height="28"
@@ -34,7 +34,7 @@ function Footer() {
 							/>
 						</svg>
 					</Link>
-					<Link href="/">
+					<Link href="https://www.behance.net/ololadeadeyemi1">
 						<svg
 							width="30"
 							height="20"
@@ -48,7 +48,7 @@ function Footer() {
 							/>
 						</svg>
 					</Link>
-					<Link href="/">
+					<Link href="https://www.linkedin.com/in/ololade-adesuyi">
 						<svg
 							width="24"
 							height="22"
@@ -76,7 +76,7 @@ function Footer() {
 							/>
 						</svg>
 					</Link>
-					<Link href="/">
+					<Link href="http://twitter.com/thislolade">
 						<svg
 							width="28"
 							height="24"

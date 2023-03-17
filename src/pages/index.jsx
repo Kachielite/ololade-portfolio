@@ -108,7 +108,7 @@ function Home() {
 						</p>
 						<div className="flex flex-row justify-center items-center space-x-6">
 							<a
-								href="mailto:aololade862@gmail.com"
+								href="mailto:aololade862@gmail.com?subject=Let's work together!"
 								className="bg-[#49654E] rounded-[6.25rem] py-3 lg:py-[1.4rem] px-4 lg:px-12  text-white text-base lg:text-xl font-normal hover:shadow-lg  hover:scale-110 duration-300"
 							>
 								Get in touch
